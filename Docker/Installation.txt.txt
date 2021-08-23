@@ -1,0 +1,46 @@
+docker --version
+docker --help
+docker pull ubuntu
+docker run unbuntu
+docker run -it ubuntu bash #(it -interactive)(for opening the terminal)
+pwd
+cd usr
+cd ..
+ls
+exit
+git clone https://github.com/swathi14-5/compose-iris.git
+cd compose iris
+ls
+cd predictr
+ls
+cd ..
+cd processor
+ls
+cat main.py (open file)
+vim docker
+:wq
+docker pull python:3.8-slim
+ls
+cd processr
+docker build .
+docker images
+==========================
+docker-composer up --build
+docker compose up
+
+change local host
+==========================
+ls
+docker build . --tag=processr
+docker build . --tag=session
+docker images
+docker run processr
+#to stop container
+docker ps
+docker stop (container id)
+docker run processr -p "8888:8888"
+
+=========
+classes: astrometry imaging transit
+
+
